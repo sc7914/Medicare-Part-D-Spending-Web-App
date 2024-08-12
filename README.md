@@ -30,8 +30,20 @@ pip install -r requirements.txt
 Medicare Part D spending:
 
 ```sh
-python -m app.unemployment
+python -m app.medicare
 ```
+
+Pull revenue:
+
+```sh
+python -m app.revenue
+```
+Pull calculate exposure:
+
+```sh
+python -m app.exposure
+```
+
 
 Run the web app (then view in the browser at http://localhost:5000/):
 

@@ -5,3 +5,4 @@ Plotly
 Yfinance
 Pandas
 IPython
+Pytest
