@@ -1,2 +1,8 @@
 Flask
 Gunicorn
+Requests
+Plotly
+Yfinance
+Pandas
+Json
+OS
