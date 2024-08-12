@@ -4,3 +4,4 @@ Requests
 Plotly
 Yfinance
 Pandas
+IPython
