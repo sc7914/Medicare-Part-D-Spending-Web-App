@@ -21,10 +21,8 @@ def about():
 def hello_world():
     print("HELLO...")
 
-    # if the request contains url params,
-    # for example a request to "/hello?name=Harper"
-    # the request.args property will hold the values in a dictionary-like structure
-    # can be empty like {} or full of params like {"name":"Harper"}
+    # if the request contains url params, they will be stored in request.args
+
     url_params = dict(request.args)
     print("URL PARAMS:", url_params)
 
