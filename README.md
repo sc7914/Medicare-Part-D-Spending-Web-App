@@ -1,9 +1,40 @@
 # README
 
-This is the [Flask](http://flask.pocoo.org/) [quick start](http://flask.pocoo.org/docs/1.0/quickstart/#a-minimal-application) example for [Render](https://render.com).
+## Setup
 
-The app in this repo is deployed at [https://flask.onrender.com](https://flask.onrender.com).
+Create virtual environment:
 
-## Deployment
+```sh
+conda create -n ump-env python=3.11
+```
 
-Follow the guide at https://render.com/docs/deploy-flask.
+Activate the environment:
+
+```sh
+conda activate ump-env
+```
+
+Install packages:
+
+```sh
+#pip install requests
+#pip install plotly
+#pip install python-dotenv
+
+# best practice to list the packages in the requirements.txt file:
+pip install -r requirements.txt
+```
+
+## Usage
+
+Medicare Part D spending:
+
+```sh
+python -m app.unemployment
+```
+
+Run the web app (then view in the browser at http://localhost:5000/):
+
+```sh
+# Mac OS:
+FLASK_APP=web_app flask run
